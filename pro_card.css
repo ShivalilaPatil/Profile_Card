@@ -1,0 +1,43 @@
+.cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 40px;
+  font-family: sans-serif;
+  font-style: oblique;
+  height: 300%;
+}
+
+.card {
+  background-color: powderblue;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  display: block;
+  padding-top: 5px;
+}
+
+.name {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.mail {
+  font-size: 0.9em;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.contact {
+  font-size: 0.9em;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
